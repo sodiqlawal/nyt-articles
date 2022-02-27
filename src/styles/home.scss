@@ -1,0 +1,44 @@
+@import "../config/variable.scss";
+
+.home {
+  .search {
+    margin-bottom: 20px;
+    position: relative;
+
+    .input-container {
+      display: flex;
+      align-items: center;
+    }
+
+    label {
+      font-family: "Poppins SemiBold";
+      margin-bottom: 3px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid $borderColor;
+    }
+
+    .icon {
+      color: $grey;
+      position: absolute;
+      right: 10px;
+    }
+  }
+
+  .result {
+    width: 100%;
+    margin-bottom: 20px;
+    a {
+      color: $dark;
+      text-decoration: none;
+    }
+    li {
+      border: 1px solid $borderColor;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}

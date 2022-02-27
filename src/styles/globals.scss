@@ -1,0 +1,41 @@
+@import "../config/variable.scss";
+
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("https://res.cloudinary.com/multiform-page/raw/upload/v1645928037/poppins-font/Poppins-Medium_hetvj8.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("https://res.cloudinary.com/multiform-page/raw/upload/v1645928033/poppins-font/Poppins-Bold_afvv5t.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("https://res.cloudinary.com/multiform-page/raw/upload/v1645928033/poppins-font/Poppins-SemiBold_nyurku.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  src: url("https://res.cloudinary.com/multiform-page/raw/upload/v1645928033/poppins-font/Poppins-Light_mhrq5c.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("https://res.cloudinary.com/multiform-page/raw/upload/v1645928033/poppins-font/Poppins-Regular_ddeqlf.ttf")
+    format("truetype");
+}
+
+.no-data {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.disabled {
+  color: $grey;
+  cursor: not-allowed;
+}

@@ -1,0 +1,22 @@
+@import "../config/variable.scss";
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        font-size: 14px;
+    }
+
+    div {
+        display:flex;
+        align-items: center;
+    }
+    
+    .active {
+        color: $primary;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

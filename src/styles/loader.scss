@@ -1,0 +1,25 @@
+@import "../config/variable.scss";
+
+.loader {
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    .loading-placeholder {
+      width: 100%;
+      height: 1.5rem;
+      background: radial-gradient(circle, $borderColor 10%, $grey);
+      animation: changebgpos 10s linear infinite;
+      margin: 10px 0;
+    }
+  }
+}
+
+@keyframes changebgpos {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 10000px;
+  }
+}

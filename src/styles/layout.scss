@@ -1,0 +1,32 @@
+@import "../config/variable.scss";
+
+.layout {
+  font-family: "Poppins Regular";
+
+  .nav {
+    text-align: center;
+    padding: 10px;
+    background-color: $dark;
+    color: $white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .children {
+    max-width: 1300px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 30px;
+
+    @media (max-width: 1000px) {
+      width: 80%;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      padding: 20px 10px;
+    }
+  }
+}
