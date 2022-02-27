@@ -3,7 +3,7 @@
 Hi there 👋. This is source material for new york times articles. Thank you very much for visiting this repository.
 
 <h2 align="center">
-  <img src="https://github.com/sodiqlawal/nyt-articles/blob/master/examples/nyt-articles.gif" alt="nyt-articles" width="600px" />
+  <img src="https://github.com/sodiqlawal/nyt-articles/blob/main/examples/example.gif" alt="nyt-articles" width="600px" />
   <br>
 </h2>
 
